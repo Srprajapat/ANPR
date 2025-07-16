@@ -41,6 +41,7 @@ This ANPR system uses **EasyOCR** for license plate recognition, designed for pa
   pip install easyocr opencv-python imutils
   ```
 ## System Architecture 
+```
 ANPR System
 ├── Image Capture
 ├── Preprocessing
@@ -48,7 +49,7 @@ ANPR System
 ├── Text Validation
 ├── Database Lookup
 └── Output/Logging
-
+```
 ## Usage
 1. Register users and vehicles
 3. Process vehicle images
